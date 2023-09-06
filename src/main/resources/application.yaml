@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    gateway:
-      routes:
-      - id: get
-        uri: http://httpbin.org
-        predicates:
-        - Path=/**
